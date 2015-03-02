@@ -129,6 +129,7 @@
 
         this.isOpen = true;
 
+        this.$target.trigger( 'show.easyzoom' );
         if (this.opts.onShow) {
             this.opts.onShow.call(this);
         }
@@ -230,6 +231,7 @@
             this.$flyout.detach();
             this.isOpen = false;
 
+            this.$target.trigger( 'hide.easyzoom' );
             if (this.opts.onHide) {
                 this.opts.onHide.call(this);
             }
