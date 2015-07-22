@@ -26,5 +26,5 @@
     "type": "git",
     "url": "https://github.com/mpneuried/easyzoom-mp.git"
   },
-  "main": "./dist/easyzoom.js",
+  "main": "./dist/easyzoom.js"
 }
