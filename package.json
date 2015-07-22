@@ -1,9 +1,30 @@
 {
-  "name": "EasyZoom",
+  "name": "easyzoom-mp",
   "version": "2.2.2",
+  "description": "EasyZoom is an elegant, highly optimised jQuery image zoom and panning plugin based on the original work by Alen Grakalic. EasyZoom supports touch-enabled devices and is easily customisable with CSS.",
+  "license": "MIT",
   "devDependencies": {
     "grunt": "0.4.x",
     "grunt-contrib-jshint": "0.9.x",
     "grunt-contrib-uglify": "0.4.x"
-  }
+  },
+  "homepage": "https://github.com/mpneuried/easyzoom-mp",
+  "keywords": [
+    "zoom",
+    "image",
+    "flyout",
+    "panning"
+  ],
+  "homepage": "https://github.com/mpneuried/easyzoom-mp",
+  "bugs": "https://github.com/mpneuried/easyzoom-mp/issues",
+  "author": {
+    "name": "mpneuried",
+    "email": "",
+    "url": "https://github.com/mpneuried"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpneuried/easyzoom-mp.git"
+  },
+  "main": "./dist/easyzoom.js",
 }
